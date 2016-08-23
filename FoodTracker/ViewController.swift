@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITextFieldDelegate  {
+class ViewController: UIViewController, UITextFieldDelegate {
     // MARK: Properties
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var mealNameLabel: UILabel!
@@ -38,5 +38,6 @@ class ViewController: UIViewController, UITextFieldDelegate  {
     @IBAction func setDefaultLabelText(sender: UIButton) {
         mealNameLabel.text = "Default Text"
     }
+
 }
 
